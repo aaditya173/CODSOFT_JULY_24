@@ -72,10 +72,12 @@ int main()
             cout << "Enter exponent number: ";
             cin >> y;
             sc.Power(x, y);
+            break;
         case 6:
             cout << "Enter number to find square root: ";
             cin >> x;
             sc.SquareRoot(x);
+            break;
         case 7:
             cout << "Enter first number : ";
             cin >> x;
@@ -88,6 +90,7 @@ int main()
             break;
         default:
             cout << "Invalid choice. Please enter a valid option." << endl;
+            break;
         }
     } while (choice != 8);
 
